@@ -1,8 +1,4 @@
 {
   "name": "sha-microservice-1-production",
-  "buildpacks": [
-    {
-      "url": "heroku/gradle"
-    }
-  ]
+  "repository": "https://github.com/callicoder/spring-boot-heroku-deployment-example/blob/master/app.json"
 }
