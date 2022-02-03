@@ -49,7 +49,7 @@ public class ProductController
     }
 
     // api/product
-    @GetMapping("/")
+    @GetMapping
     public ResponseEntity<List<Product>> getAllProducts()
     {
         List<Product> productList  = productService.findAll();
