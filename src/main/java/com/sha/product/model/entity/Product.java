@@ -8,9 +8,7 @@ import lombok.ToString;
 import javax.persistence.*;
 import java.util.Date;
 
-@Getter
-@Setter
-@ToString
+@Data
 @Table(name = "PRODUCTS")
 @javax.persistence.Entity
 public class Product extends Entity<Integer>
